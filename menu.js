@@ -1,12 +1,13 @@
-function openMenu() {
+    const burguer = document.getElementById('burguer');
 
-    if(menu.style.display == 'flex') {
-        menu.style.display = 'none'
-    } else {
-        menu.style.display = 'flex'
+    function toggleMenu() {
+        const nav = document.getElementById('nav');
+        nav.classList.toggle('active');
     }
 
-}
+    burguer.addEventListener('click', toggleMenu);
+
+
 
 function resizeWindow() {
     if (window.innerWidth >= 1200) {

@@ -8,14 +8,14 @@ body {
 header {
     width: 100%;
     height: 100px;
-    background-color: rgba(0, 0, 0, 0.56);
+    background-color:  rgba(0, 0, 0, 0.916);
     position: fixed;
     
 }
 
 #headerbackground {
     width: 100%;
-    height: 400px;
+    height: 350px;
     background-color: #A3320B;
     background-image: url(images/design.png);
     background-size: cover;
@@ -40,41 +40,73 @@ header {
 }
 
 #menu {
-    height: 800px;
-    width: 80%;
+    height: 0;
+    width: 90%;
     margin-top: 100px;
-    display: flex;
+    padding-left: 0;
     flex-direction: column;
+    justify-content: space-between;
     align-items: left;
+    list-style-type: none;
     position: fixed;
-    z-index: 99;
     background-color: rgba(0, 0, 0, 0.916);
-    display: none;
+    display: flex;
+
+    transition: 1s;
+    visibility: hidden;
+    overflow-y: hidden;
+    z-index: 99;
 }
 
-#menu a {
-    background-color: #a30b0b51;
+
+#nav.active #menu {
+    height: calc(60vh);
+    visibility: visible;
+    padding-bottom: 400px;
+}
+
+
+#menu li {
+   
+    background-image: linear-gradient(to right, #a30b0b51, #a30b0b51, #a30b0b51, transparent);
     color: white;
     font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
-    width: 120px;
-    height: 20px;
-    margin-top: 10px;
-    padding: 15px;
+    width: 170px;
+    margin: 0px;
+    padding: 5px;
+
+    -webkit-transition: 0.3s linear 0.2s;
+    -moz-transition: 0.3s linear 0.2s;
+    -o-transition: 0.3s linear 0.2s;
+    transition: 0.3s linear 0.5;
 }
 
 
-#menu a:hover {
+#menu li:hover {
     cursor: pointer;
-    width: 200px;
+    width: 300px;
+    -webkit-transition: 0.3s linear 0.2s;
+    -moz-transition: 0.3s linear 0.2s;
+    -o-transition: 0.3s linear 0.2s;
+    transition: 0.3s linear 0.2s;
+}
+
+#menu a {
+    color: white;
+    font-size: 1.2em;
+    padding-left: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 170px;
 }
 
 main {
     background-color: #9d0606f3;
     /*background-color: transparent;*/
     width: 100%;
-    height: 1300px;
+    height: 1000px;
     margin: auto;
     display: flex;
     flex-direction: row;
