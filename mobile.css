@@ -74,8 +74,6 @@ body {
 
 
 #menu li {
-   
-    background-image: linear-gradient(to right, #a30b0b9a, #a30b0b9a, #a30b0b9a, transparent);
     color: white;
     font-size: 1.2em;
     font-weight: bold;
@@ -94,11 +92,6 @@ body {
 
 #menu li:hover {
     cursor: pointer;
-    width: 300px;
-    -webkit-transition: 0.3s linear 0.2s;
-    -moz-transition: 0.3s linear 0.2s;
-    -o-transition: 0.3s linear 0.2s;
-    transition: 0.3s linear 0.2s;
 }
 
 #menu a {
@@ -139,7 +132,7 @@ main {
     font-weight: lighter;
     position: relative;
     top: 5%;
-    right: -40px;
+    padding-left: 30px;
     color: white;
     margin: 0px;
 }
