@@ -68,7 +68,7 @@ header {
 
 #menu li {
    
-    background-image: linear-gradient(to right, #a30b0b51, #a30b0b51, #a30b0b51, transparent);
+    background-image: linear-gradient(to right, #a30b0b9a, #a30b0b9a, #a30b0b9a, transparent);
     color: white;
     font-size: 1.2em;
     font-weight: bold;
@@ -104,7 +104,6 @@ header {
 
 main {
     background-color: #9d0606f3;
-    /*background-color: transparent;*/
     width: 100%;
     height: 1400px;
     margin: auto;
@@ -132,7 +131,7 @@ main {
     font-weight: lighter;
     position: relative;
     top: 5%;
-    left: 6%;
+    right: -40px;
     color: white;
     margin: 0px;
 }
@@ -143,8 +142,8 @@ main {
     font-size: 1.9em;
     font-weight: bold;
     position: relative;
-    top: 4%;
-    right: 6%;
+    top: 5%;
+    right: 9%;
     color: #A3320B;
 }
 
@@ -159,6 +158,7 @@ main {
 #p4 {
     color: white;
     margin-left: 20px;
+    padding: 20px;
 }
 
 #div2 {
