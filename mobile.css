@@ -8,7 +8,7 @@ body {
 
 #headerbackground {
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-color: #A3320B;
     position: relative;
     background-image: url(images/design.png);
@@ -20,7 +20,7 @@ body {
 #light{
     background-color: #151213d2;
     width: 100%;
-    height: 499px;
+    height: 599px;
     position: relative;
 }
 
@@ -37,8 +37,8 @@ body {
     font-size: 2.3em;
     position: fixed;
     top: 0;
-    right: 0;
-    z-index: 99;
+    left: 0;
+    z-index: 300;
 }
 
 #burguer:hover {
@@ -47,12 +47,12 @@ body {
     text-shadow: 0px 0px 20px white;
 }
 
+
 #menu {
     height: 0;
     width: 100%;
     margin-top: 0px;
     padding-left: 0;
-    align-items: left;
     list-style-type: none;
     background-color: rgba(0, 0, 0, 0.916);
     display: flex;
@@ -71,6 +71,7 @@ body {
 #nav.active #menu {
     height: calc(40vh);
     visibility: visible;
+    padding-top: 80px;
     padding-bottom: 500px;
 }
 
@@ -82,8 +83,8 @@ body {
     text-decoration: none;
     width: 200px;
     margin: 0px;
-    margin-top: 20px;
-    padding: 5px;
+    margin-top: 0px;
+    padding: 10px;
 
     -webkit-transition: 0.3s linear 0.2s;
     -moz-transition: 0.3s linear 0.2s;
@@ -95,6 +96,7 @@ body {
 #menu li:hover {
     cursor: pointer;
 }
+
 
 #menu a {
     color: white;
@@ -167,6 +169,20 @@ main {
 #div2 {
     width: 90%;
     height: 300px;
+}
+
+#div2 h3 {
+    text-align: center;
+    color: white;
+}
+
+#div2 p {
+    text-align: justify;
+    color: white;
+    padding: 20px;
+    text-indent: 15px;
+    line-height: 1.5em;
+
 }
 
 #div3 {
