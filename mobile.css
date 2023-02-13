@@ -10,6 +10,7 @@ header {
     height: 100px;
     background-color:  rgba(0, 0, 0, 0.916);
     position: fixed;
+    top: 0;
     
 }
 
@@ -28,7 +29,7 @@ header {
     color: white;
     padding: 15px;
     font-size: 2.3em;
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
 }
