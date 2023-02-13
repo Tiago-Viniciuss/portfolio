@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(images/backgroundmobile.gif);
+    padding: 0px;
+    margin: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: chocolate;
+    
+}
+
+#headerbackground {
+    width: 100%;
+    height: 700px;
+    background-color: chocolate;
+    background-image: url(images/backgroundlight.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+main {
+    background-color: saddlebrown;
+    /*background-color: transparent;*/
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    background-color: darkgoldenrod;
+    height: 400px;
+    width: 80vw;
+}
+
+
+
+
