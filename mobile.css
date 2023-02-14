@@ -186,6 +186,8 @@ main {
     text-align: center;
     color: white;
     padding: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
     border-radius: 5px;
 }
 
@@ -196,75 +198,6 @@ main {
     text-indent: 15px;
     line-height: 1.5em;
 }
-
-#div3 {
-    width: 75%;
-    height: 60px;
-    border-radius: 5px;
-}
-
-#div3 h3 {
-    text-align: center;
-    color: white;
-}
-
-
-#div4 {
-    width: 140px;
-    height: 140px;
-    background-image: url(images/happywork.jpg);
-    background-size: cover;
-    background-position: center;
-    border: 2px solid #130400;
-    border-radius: 4px;
-}
-
-#div4 p {
-    display: none;
-    color: white;
-    font-size: 0.7em;
-    text-align: center;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#div4:hover {
-    background-image: none;
-}
-
-#div4:hover p {
-    display: block;
-}
-
-
-#div5 {
-    width: 140px;
-    height: 140px;
-    background-image: url(images/boringwork.jpg);
-    background-size: cover;
-    background-position: center;
-    border: 2px solid #130400;
-    border-radius: 4px;
-}
-
-#div5 p {
-    display: none;
-    color: white;
-    z-index: 50;
-    font-size: 0.7em;
-    text-align: center;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#div5:hover {
-    background-image: none;
-}
-
-#div5:hover p {
-    display: block;
-}
-
 
 #div6 {
     width: 95%;
