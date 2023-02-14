@@ -169,12 +169,14 @@ main {
 #div2 {
     width: 90%;
     height: 330px;
+    border-radius: 5px;
 }
 
 #div2 h3 {
     text-align: center;
     color: white;
     padding: 10px;
+    border-radius: 5px;
 }
 
 #div2 p {
@@ -186,13 +188,21 @@ main {
 }
 
 #div3 {
-    width: 90%;
-    height: 80px;
+    width: 60%;
+    height: 60px;
+    border-radius: 5px;
 }
 
 #div3 h3 {
     text-align: center;
     color: white;
+}
+
+
+#div3 a {
+    text-decoration: none;
+    color: #E82E00;
+    cursor: text;
 }
 
 #div4 {
@@ -203,7 +213,27 @@ main {
     background-position: center;
     border: 2px solid #130400;
     border-radius: 4px;
+    z-index: 70;
 }
+
+#div4 p {
+    display: none;
+    color: white;
+    z-index: 50;
+    font-size: 0.7em;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#div4:hover {
+    background-image: none;
+}
+
+#div4:hover p {
+    display: block;
+}
+
 
 #div5 {
     width: 140px;
@@ -215,9 +245,29 @@ main {
     border-radius: 4px;
 }
 
+#div5 p {
+    display: none;
+    color: white;
+    z-index: 50;
+    font-size: 0.7em;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#div5:hover {
+    background-image: none;
+}
+
+#div5:hover p {
+    display: block;
+}
+
+
 #div6 {
-    width: 90%;
+    width: 95%;
     height: 400px;
+    border-radius: 5px;
 }
 
 #div6 p {
@@ -235,8 +285,9 @@ main {
 }
 
 #div7 {
-    width: 90%;
+    width: 95%;
     height: 400px;
+    border-radius: 5px;
 }
 
 #div7 h3 {
