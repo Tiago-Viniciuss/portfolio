@@ -16,11 +16,3 @@
 
     }
 
-
-/*function resizeWindow() {
-    if (window.innerWidth >= 1200) {
-        nav.style.display = 'flex'
-    } else {
-        nav.style.display = 'none'
-    }
-}*/
