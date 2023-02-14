@@ -24,8 +24,9 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
+  
 }
+
 
 #light{
     background-color: #151213d2;
@@ -207,12 +208,6 @@ main {
     color: white;
 }
 
-
-#div3 a {
-    text-decoration: none;
-    color: #E82E00;
-    cursor: text;
-}
 
 #div4 {
     width: 140px;
