@@ -255,14 +255,27 @@ main {
 }
 
 #photo {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     background-color: #A3320B;
     background-image: url(images/myself.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 5px;
+    transition: 0.5s;
+}
+
+#photo:hover { 
+    transform: scale(1.1);
+}
+
+#borderphoto {
+    width: 500px;
+    height: 500px;
+    transition: 0.5s;
+    overflow: hidden;
     border: 2px solid #E82E00;
+    border-radius: 5px;
 }
 
 #div7 h3 {
