@@ -108,9 +108,9 @@ body {
 }
 
 main {
-    background-color: #B52400;
+    background-color: #693A1F;
     width: 100%;
-    height: 1400px;
+    height: 1700px;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -120,7 +120,7 @@ main {
 }
 
 .info {
-    background-color: #310a00;
+    background-color: #130400;
     height: 200px;
     width: 200px;
 }
@@ -167,12 +167,13 @@ main {
 
 #div2 {
     width: 90%;
-    height: 300px;
+    height: 330px;
 }
 
 #div2 h3 {
     text-align: center;
     color: white;
+    padding: 10px;
 }
 
 #div2 p {
@@ -181,18 +182,66 @@ main {
     padding: 20px;
     text-indent: 15px;
     line-height: 1.5em;
-
 }
 
 #div3 {
     width: 90%;
-    height: 100px;
+    height: 80px;
+}
+
+#div3 h3 {
+    text-align: center;
+    color: white;
+}
+
+#div4 {
+    width: 120px;
+    height: 120px;
+    background-image: url(images/happywork.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 #div5 {
-    width: 90%;
+    width: 120px;
+    height: 120px;
+    background-image: url(images/boringwork.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
+#div6 {
+    width: 90%;
+    height: 400px;
+}
+
+#div6 p {
+    text-align: justify;
+    color: white;
+    padding: 20px;
+    text-indent: 15px;
+    line-height: 1.5em;
+}
+
+#div7 {
+    width: 90%;
+    height: 400px;
+}
+
+#div7 h3 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+#div7 p {
+    text-align: justify;
+    color: white;
+    padding: 20px;
+    text-indent: 15px;
+    line-height: 1.5em;
+
+}
 
 
 
