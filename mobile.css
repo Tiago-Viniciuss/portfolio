@@ -33,7 +33,7 @@ header {
     height: 600px;
     background-color: #A3320B;
     position: relative;
-    background-image: url(images/design.png);
+    background-image: url(images/backgroundlight-mobile.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -218,7 +218,7 @@ main {
 #div6 {
     background-color: white;
     width: 95%;
-    height: 380px;
+    height: 420px;
     border-radius: 5px;
 }
 
