@@ -239,16 +239,6 @@ footer p {
     display: block;
 }
 
-#articleportfolio h1 {
-    text-align: center;
-    font-size: 2.2em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: red;
-    position: fixed;
-    top: 0;
-    left: 33%;
-    z-index: 95;
-}
 
 #articleportfolio h2 {
     color: white;
