@@ -166,9 +166,10 @@ header {
 #div7 p {
     text-align: center;
     color: white;
-    padding: 20px;
+    padding: 0px;
     text-indent: 15px;
     line-height: 1.5em;
+    font-size: 1.3em;
 }
 
 #div7 a {
@@ -241,22 +242,27 @@ footer p {
 
 
 #articleportfolio h2 {
+    font-size: 3em;
     color: white;
-    margin: 0px;
-    padding-left: 30px;
+    padding: 0px;
+    text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #articleportfolio p {
     color: white;
+    width: 800px;
     margin: auto;
     padding: 30px;
     text-indent: 20px;
-    line-height: 1.5em;
+    line-height:  2em;
+    font-size: 1.5em;
+    text-align: justify;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #articleportfolio a {
+    font-size: 1.5em;
     text-decoration: none;
     color: #E82E00;
     cursor: text;
@@ -274,15 +280,20 @@ footer p {
     color: #050100;
     padding: 10px 0px 10px 20px;
     margin-bottom: 40px;
+    text-align: center;
+    font-size: 2.2em;
 }
 
 .project-mc p {
     color: white;
     margin: auto;
+    text-align: center;
+    width: 700px;
     padding: 30px;
     margin-bottom: 40px;
-    line-height: 1.5em;
+    line-height: 2em;
     text-indent: 20px;
+    font-size: 1.5em;
 }
 
 .project-mc a {
@@ -294,14 +305,20 @@ footer p {
 #infectusframe {
     display: block;
     margin: auto;
+    width: 400px;
+    height: 600px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    margin-bottom: 150px;
+}
+
+#infectusframedesktop {
+    display: block;
+    margin: auto;
     width: 85%;
     height: 600px;
     border: 2px solid #ffffff;
     border-radius: 5px;
-}
-
-#infectusframedesktop {
-    display: none;
 }
 
 
@@ -316,28 +333,39 @@ footer p {
     color: #050100;
     padding: 10px 0px 10px 20px;
     margin-bottom: 40px;
+    text-align: center;
+    font-size: 2.2em;
 }
 
 #project-restaurant p {
     color: white;
     margin: auto;
+    text-align: center;
     padding: 30px;
+    width: 700px;
     margin-bottom: 40px;
     line-height: 1.5em;
+    font-size: 1.5em;
     text-indent: 20px;
 }
 
 #restaurantframe {
     display: block;
     margin: auto;
+    width: 500px;
+    height: 600px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    margin-bottom: 150px;
+}
+
+#restaurantframedesktop {
+    display: block;
+    margin: auto;
     width: 85%;
     height: 600px;
     border: 2px solid #ffffff;
     border-radius: 5px;
-}
-
-#restaurantframedesktop {
-    display: none;
 }
 
 #project-razortech {
@@ -351,27 +379,35 @@ footer p {
     color: #050100;
     padding: 10px 0px 10px 20px;
     margin-bottom: 40px;
+    text-align: center;
+    font-size: 2.2em;
 }
 
 #project-razortech p {
     color: white;
     margin: auto;
     padding: 30px;
+    width: 750px;
+    text-align: center;
     margin-bottom: 40px;
-    line-height: 1.5em;
+    line-height: 2em;
+    font-size: 1.5em;
     text-indent: 20px;
 }
 
 #razortechframe {
     display: block;
     margin: auto;
-    width: 85%;
+    width: 400px;
     height: 600px;
     border: 2px solid #ffffff;
     border-radius: 5px;
 }
 
-
-#razortechframedesktop {
-    display: none;
+.frametag {
+    font-size: 2.5em;
+    margin: 0px;
+    font-weight: bold;
+    padding: 0px;
+    color: #E82E00;
 }

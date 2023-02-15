@@ -340,6 +340,7 @@ footer p {
     display: none;
 }
 
+
 #project-razortech {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -370,7 +371,6 @@ footer p {
     border: 2px solid #ffffff;
     border-radius: 5px;
 }
-
 
 #razortechframedesktop {
     display: none;
