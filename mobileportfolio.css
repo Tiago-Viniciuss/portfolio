@@ -382,9 +382,18 @@ footer p {
 
 .linksites {
     text-decoration: none;
-    text-align: center;
-    margin: auto;
-    color: #E82E00;
+    color: red;
     background-color: white;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    padding: 3px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.linksites:hover {
+    cursor: pointer;
 }
