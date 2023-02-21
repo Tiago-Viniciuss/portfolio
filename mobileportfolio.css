@@ -379,3 +379,12 @@ footer p {
 .frametag {
     display: none;
 }
+
+.linksites {
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: #E82E00;
+    background-color: white;
+    
+}
