@@ -321,6 +321,52 @@ footer p {
     border-radius: 5px;
 }
 
+#project-ultrabank {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #000000;
+}
+
+#project-ultrabank h2 {
+    background-color: white;
+    color: #050100;
+    padding: 10px 0px 10px 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 2.2em;
+}
+
+#project-ultrabank p {
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    width: 700px;
+    margin-bottom: 40px;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    text-indent: 20px;
+}
+
+#ultrabankframe {
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: 600px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    margin-bottom: 150px;
+}
+
+#ultrabankframedesktop {
+    display: block;
+    margin: auto;
+    width: 85%;
+    height: 700px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
 
 #project-restaurant {
     margin-top: 100px;
@@ -406,4 +452,22 @@ footer p {
 
 .frametag {
     font-weight: bold;
+}
+
+.linksites {
+    text-decoration: none;
+    color: red;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    padding: 3px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.linksites:hover {
+    cursor: pointer;
 }
