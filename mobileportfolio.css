@@ -304,6 +304,40 @@ footer p {
     display: none;
 }
 
+#project-ultrabank {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #000000;
+}
+
+#project-ultrabank h2 {
+    background-color: white;
+    color: #050100;
+    padding: 10px 0px 10px 20px;
+    margin-bottom: 40px;
+}
+
+#project-ultrabank p {
+    color: white;
+    margin: auto;
+    padding: 30px;
+    margin-bottom: 40px;
+    line-height: 1.5em;
+    text-indent: 20px;
+}
+
+#ultrabankframe {
+    display: block;
+    margin: auto;
+    width: 85%;
+    height: 600px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+#ultrabankframedesktop {
+    display: none;
+}
 
 #project-restaurant {
     margin-top: 100px;

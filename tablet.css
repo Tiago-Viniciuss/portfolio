@@ -4,6 +4,7 @@ body {
     background-color: #130400;
     padding: 0px;
     margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body::-webkit-scrollbar {
