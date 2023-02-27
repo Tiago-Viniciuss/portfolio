@@ -191,13 +191,13 @@ main {
     padding: 20px;
 }
 
-#div2 {
+#whatconvince {
     width: 90%;
     height: 500px;
     border-radius: 5px;
 }
 
-#div2 h3 {
+#whatconvince h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.8em;
     text-align: center;
@@ -207,7 +207,7 @@ main {
     border-radius: 5px;
 }
 
-#div2 p {
+#whatconvince p {
     font-size: 1.5em;
     text-align: center;
     color: white;
@@ -216,14 +216,14 @@ main {
     line-height: 1.3em;
 }
 
-#div6 {
+#aboutemotion {
     background-color: white;
     width: 95%;
     height: 450px;
     border-radius: 5px;
 }
 
-#div6 p {
+#aboutemotion p {
     text-align: center;
     color: rgb(0, 0, 0);
     padding: 20px;
@@ -232,7 +232,7 @@ main {
 }
 
 
-#div6 a {
+#aboutemotion a {
     text-decoration: none;
     color: #E82E00;
     cursor: text;
@@ -240,7 +240,7 @@ main {
 
 
 
-#div7 {
+#personalinfo {
     width: 95%;
     height: 700px;
     border-radius: 5px;
@@ -275,7 +275,7 @@ main {
     border-radius: 5px;
 }
 
-#div7 h3 {
+#personalinfo h3 {
     text-align: center;
     color: white;
     padding-top: 30px;
@@ -283,7 +283,7 @@ main {
     margin-bottom: 0px;
 }
 
-#div7 p {
+#personalinfo p {
     text-align: center;
     color: white;
     padding: 20px;
@@ -291,7 +291,7 @@ main {
     line-height: 1.5em;
 }
 
-#div7 a {
+#personalinfo a {
     text-decoration: none;
     color: #E82E00;
     cursor: text;

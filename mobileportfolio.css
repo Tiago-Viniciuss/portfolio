@@ -120,7 +120,7 @@ header {
 }
 
 
-#div7 {
+#personalinfoPort {
     width: 95%;
     height: 700px;
     border-radius: 5px;
@@ -155,7 +155,7 @@ header {
     border-radius: 5px;
 }
 
-#div7 h3 {
+#personalinfoPort h3 {
     text-align: center;
     color: white;
     padding-top: 30px;
@@ -163,7 +163,7 @@ header {
     margin-bottom: 0px;
 }
 
-#div7 p {
+#personalinfoPort p {
     text-align: center;
     color: white;
     padding: 20px;
@@ -171,7 +171,7 @@ header {
     line-height: 1.5em;
 }
 
-#div7 a {
+#personalinfoPort a {
     text-decoration: none;
     color: #E82E00;
     cursor: text;
@@ -260,6 +260,42 @@ footer p {
     text-decoration: none;
     color: #E82E00;
     cursor: text;
+}
+
+
+#longriff {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #000000;
+}
+
+#longriff h2 {
+    background-color: white;
+    color: #050100;
+    padding: 10px 0px 10px 20px;
+    margin-bottom: 40px;
+}
+
+#longriff p {
+    color: white;
+    margin: auto;
+    padding: 30px;
+    margin-bottom: 40px;
+    line-height: 1.5em;
+    text-indent: 20px;
+}
+
+#longriffframe {
+    display: block;
+    margin: auto;
+    width: 85%;
+    height: 600px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+#longriffframedesktop {
+    display: none;
 }
 
 
@@ -405,14 +441,6 @@ footer p {
     border-radius: 5px;
 }
 
-
-#razortechframedesktop {
-    display: none;
-}
-
-.frametag {
-    display: none;
-}
 
 .linksites {
     text-decoration: none;

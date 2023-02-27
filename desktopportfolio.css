@@ -121,9 +121,9 @@ header {
 }
 
 
-#div7 {
+#personalinfoPort {
     width: 700px;
-    height: 700px;
+    height: 1000px;
     border-radius: 5px;
     margin: auto;
     display: flex;
@@ -133,8 +133,8 @@ header {
 }
 
 #photo {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     background-color: #A3320B;
     background-image: url(images/myself.jpg);
     background-size: cover;
@@ -149,15 +149,15 @@ header {
 }
 
 #borderphoto {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     transition: 0.5s;
     overflow: hidden;
     border: 2px solid #E82E00;
     border-radius: 5px;
 }
 
-#div7 h3 {
+#personalinfoPort h3 {
     text-align: center;
     color: white;
     padding-top: 30px;
@@ -165,7 +165,7 @@ header {
     margin-bottom: 0px;
 }
 
-#div7 p {
+#personalinfoPort p {
     text-align: center;
     color: white;
     padding: 0px;
@@ -174,7 +174,7 @@ header {
     font-size: 1.3em;
 }
 
-#div7 a {
+#personalinfoPort a {
     text-decoration: none;
     color: #E82E00;
     cursor: text;
@@ -270,6 +270,51 @@ footer p {
     cursor: text;
 }
 
+#longriff {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #000000;
+}
+
+#longriff h2 {
+    background-color: white;
+    color: #050100;
+    padding: 10px 0px 10px 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 2.2em;
+}
+
+#longriff p {
+    color: white;
+    margin: auto;
+    text-align: justify;
+    width: 700px;
+    padding: 30px;
+    margin-bottom: 40px;
+    line-height: 2em;
+    text-indent: 20px;
+    font-size: 1.5em;
+}
+
+#longriffframe {
+    display: block;
+    margin: auto;
+    margin-bottom: 100px;
+    width: 400px;
+    height: 600px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+#longriffframedesktop {
+    display: block;
+    margin: auto;
+    width: 85%;
+    height: 700px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
 
 .project-mc {
     margin-top: 100px;
@@ -289,7 +334,7 @@ footer p {
 .project-mc p {
     color: white;
     margin: auto;
-    text-align: center;
+    text-align: justify;
     width: 700px;
     padding: 30px;
     margin-bottom: 40px;
@@ -341,7 +386,7 @@ footer p {
 #project-ultrabank p {
     color: white;
     margin: auto;
-    text-align: center;
+    text-align: justify;
     padding: 30px;
     width: 700px;
     margin-bottom: 40px;
@@ -388,7 +433,7 @@ footer p {
 #project-restaurant p {
     color: white;
     margin: auto;
-    text-align: center;
+    text-align: justify;
     padding: 30px;
     width: 700px;
     margin-bottom: 40px;
@@ -436,7 +481,7 @@ footer p {
     margin: auto;
     padding: 30px;
     width: 750px;
-    text-align: center;
+    text-align: justify;
     margin-bottom: 40px;
     line-height: 2em;
     font-size: 1.5em;
@@ -452,9 +497,6 @@ footer p {
     border-radius: 5px;
 }
 
-.frametag {
-    font-weight: bold;
-}
 
 .linksites {
     text-decoration: none;
@@ -472,4 +514,8 @@ footer p {
 
 .linksites:hover {
     cursor: pointer;
+}
+
+.infoport {
+    height: 870px;
 }

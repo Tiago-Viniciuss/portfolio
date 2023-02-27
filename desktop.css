@@ -191,7 +191,7 @@ main {
 }
 
 
-#div2 {
+#whatconvince {
     width: 600px;
     height: 350px;
     border-radius: 5px;
@@ -199,7 +199,7 @@ main {
     margin-bottom: 80px;
 }
 
-#div2 h3 {
+#whatconvince h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
     text-align: center;
@@ -209,7 +209,7 @@ main {
     border-radius: 5px;
 }
 
-#div2 p {
+#whatconvince p {
     font-size: 1.5em;
     text-align: center;
     color: white;
@@ -219,7 +219,7 @@ main {
     margin: 0px;
 }
 
-#div6 {
+#aboutemotion {
     background-color: white;
     width: 700px;
     height: 300px;
@@ -228,7 +228,7 @@ main {
     border-radius: 5px;
 }
 
-#div6 p {
+#aboutemotion p {
     text-align: center;
     color: rgb(0, 0, 0);
     padding: 30px;
@@ -236,7 +236,7 @@ main {
 }
 
 
-#div6 a {
+#aboutemotion a {
     text-decoration: none;
     color: #E82E00;
     cursor: text;
@@ -244,7 +244,7 @@ main {
     font-size: 1.3em;
 }
 
-#div7 {
+#personalinfo {
     width: 600px;
     height: 900px;
     border-radius: 5px;
@@ -278,7 +278,7 @@ main {
     border-radius: 5px;
 }
 
-#div7 h3 {
+#personalinfo h3 {
     text-align: center;
     color: white;
     font-size: 2.4em;
@@ -287,7 +287,7 @@ main {
     margin-bottom: 0px;
 }
 
-#div7 p {
+#personalinfo p {
     text-align: center;
     color: white;
     padding: 0px;
@@ -296,7 +296,7 @@ main {
     font-size: 1.3em;
 }
 
-#div7 a {
+#personalinfo a {
     text-decoration: none;
     color: #E82E00;
     cursor: text;
