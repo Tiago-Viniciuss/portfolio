@@ -209,11 +209,13 @@ main {
 #aboutfrontend  p {
     font-size: 0.9em;
     text-align: justify;
-    color: white;
+    color: rgb(0, 0, 0);
+    background-color: white;
     padding: 25px;
-    margin: 0px;
+    margin: 20px 0px;
     text-indent: 15px;
     line-height: 1.3em;
+    border-radius: 5px;
 }
 
 #turnlight {
