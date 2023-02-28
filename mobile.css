@@ -246,7 +246,7 @@ main {
 
 
 #techs {
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     width: 300px;
     height: 450px;
     border-radius: 5px;
@@ -258,6 +258,7 @@ main {
     background-size: cover;
     height: 70px;
     width: 70px;
+    border-radius: 50%;
 }
 
 #htmlImg {
