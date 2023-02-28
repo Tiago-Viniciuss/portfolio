@@ -135,7 +135,7 @@ main {
     /*background-color: #6f1600;*/
     background-color: rgb(0, 0, 0);
     width: 100%;
-    height: 2300px;
+    height: 3300px;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -193,27 +193,57 @@ main {
 
 #whatconvince {
     width: 90%;
-    height: 500px;
+    height: 1900px;
     border-radius: 5px;
 }
 
 #whatconvince h3 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.8em;
+    font-size: 1.6em;
     text-align: center;
     color: white;
     padding: 0px;
-    margin: 0px;
+    margin: 30px 0px;
     border-radius: 5px;
 }
 
-#whatconvince p {
-    font-size: 1.5em;
-    text-align: center;
+
+#purpose {
+    display: flex;
+    flex-direction: column;
+    height: 1800px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.purposeImg {
+    width: 280px;
+    height: 410px;
+    background-color: white;
+    background-size: cover;
+}
+
+.purposeImg p {
+    font-size: 1em;
+    text-align: justify;
     color: white;
-    padding: 0px;
+    padding: 25px;
+    margin: 0px;
     text-indent: 15px;
     line-height: 1.3em;
+}
+
+#img1 {
+    background-image: url(images/feeling.png);
+}
+
+#img2 {
+    background-image: url();
+}
+
+#img3 {
+    background-image: url();
 }
 
 #aboutemotion {
