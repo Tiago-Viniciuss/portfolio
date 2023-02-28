@@ -119,10 +119,17 @@ main {
     width: 200px;
 }
 
+#containertitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #title {
     width: 320px;
     height: 170px;
-    margin-top: 50px;
+    margin: 50px 0px 0px 0px;
 }
 
 #p1 {
@@ -169,6 +176,7 @@ main {
     background-color: rgb(255, 255, 255);
     color: rgb(8, 8, 8);
     margin:  30px auto; 
+    border-radius: 5px;
 }
 
 #introduction p {
