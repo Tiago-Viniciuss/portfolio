@@ -127,37 +127,36 @@ header {
     text-decoration: underline 4px;
 }
 
+
 main {
-    /*background-color: #6f1600;*/
     background-color: rgb(0, 0, 0);
     width: 100%;
-    height: 3000px;
+    height: 3300px;
     margin: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    
+    justify-content: space-around;
     align-items: center;
 }
 
 .info {
     background-color: #050100;
-    height: 500px;
-    width: 500px;
+    height: 200px;
+    width: 200px;
 }
 
 #div1 {
-    padding-top: 100px;
-    width: 100%;
-    height: 800px;
+    width: 800px;
+    height: 170px;
 }
 
 #p1 {
-    font-size: 6em;
+    font-size: 3.9em;
     font-weight: lighter;
     position: relative;
-    top: 8%;
-    padding-left: 250px;
+    top: 5%;
+    padding-left: 230px;
     color: white;
     margin: 0px;
 }
@@ -165,11 +164,11 @@ main {
 #p2 {
     margin: 0px;
     text-align: right;
-    font-size: 7em;
+    font-size: 2.9em;
     font-weight: bold;
     position: relative;
     top: 5%;
-    padding-right: 150px;
+    right: 19%;
     color: #B52400;
 }
 
@@ -178,75 +177,151 @@ main {
     text-align: right;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.3em;
     cursor: text;
 }
 
 #p4 {
     color: white;
+    margin-left: 80px;
+    padding: 20px;
     text-align: center;
-    margin-left: 20px;
-    padding-top: 80px;
-    font-size: 3em;
+    font-size: 1.4em;
 }
 
-
 #whatconvince {
-    width: 600px;
-    height: 350px;
+    width: 95%;
+    height: 1480px;
     border-radius: 5px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin: auto;
 }
 
 #whatconvince h3 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 1.9em;
     text-align: center;
     color: white;
     padding: 0px;
-    margin: 20px;
+    margin: 30px 0px 10px 0px;
     border-radius: 5px;
 }
 
-#whatconvince p {
-    font-size: 1.5em;
-    text-align: center;
+
+#purpose {
+    display: flex;
+    flex-direction: column;
+    height: 1580px;
+    width: 99%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.purposeImg {
+    width: 420px;
+    height: 850px;
+    background-color: white;
+    background-size: cover;
+}
+
+.purposeImg p {
+    font-size: 1.2em;
+    text-align: justify;
     color: white;
-    padding: 0px;
+    padding: 25px;
+    margin: 0px;
     text-indent: 15px;
     line-height: 1.3em;
+}
+
+#img1 {
+    background-image: url(images/feeling.png);
+}
+
+#img2 {
+    background-image: url(/images/flame.png);
+}
+
+#textPurpose {
+    height: 450px;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+}
+
+#textPurpose h3 {
+    color: #ffffff;
+    padding: 15px;
+}
+
+#textPurpose p {
+    font-size: 1.1em;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    padding: 25px;
     margin: 0px;
+    text-indent: 15px;
+    line-height: 1.3em;
 }
 
-#aboutemotion {
+#techs {
     background-color: white;
-    width: 700px;
-    height: 300px;
-    margin-top: 150px;
-    margin-bottom: 80px;
+    width: 650px;
+    height: 450px;
     border-radius: 5px;
+    margin-top: 50px;
 }
 
-#aboutemotion p {
+.techImg {
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+#htmlImg {
+    background-image: url(images/html.png);
+}
+
+#cssImg {
+    background-image: url(images/css.png);
+}
+
+#javascriptImg {
+    background-image: url(images/javascript.png);
+}
+
+#mysqlImg {
+    background-image: url(images/mysql.png);
+}
+
+#gitImg {
+    background-image: url(images/git.png);
+}
+
+#githubImg {
+    background-image: url(images/github.png);
+}
+
+
+#techs p {
     text-align: center;
     color: rgb(0, 0, 0);
-    padding: 30px;
-    line-height: 1.6em;
+    padding: 20px;
+    text-indent: 15px;
+    line-height: 1.5em;
 }
 
 
-#aboutemotion a {
+#techs a {
     text-decoration: none;
     color: #E82E00;
     cursor: text;
-    margin: 5px;
-    font-size: 1.3em;
 }
 
+
 #personalinfo {
-    width: 600px;
-    height: 900px;
+    width: 95%;
+    height: 700px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -255,13 +330,14 @@ main {
 }
 
 #photo {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     background-color: #A3320B;
     background-image: url(images/myself.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 5px;
+    
     transition: 0.5s;
 }
 
@@ -270,8 +346,8 @@ main {
 }
 
 #borderphoto {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     transition: 0.5s;
     overflow: hidden;
     border: 2px solid #E82E00;
@@ -281,19 +357,18 @@ main {
 #personalinfo h3 {
     text-align: center;
     color: white;
-    font-size: 2.4em;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
 
 #personalinfo p {
-    text-align: center;
+    width: 500px;
+    text-align: justify;
     color: white;
-    padding: 0px;
+    padding: 20px;
     text-indent: 15px;
     line-height: 1.5em;
-    font-size: 1.3em;
 }
 
 #personalinfo a {
@@ -348,8 +423,6 @@ footer p {
 #backtop a:hover {
     color: #E82E00;
 }
-
-
 
 
 

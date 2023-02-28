@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-color: #130400;
+    background-color: #000000;
     padding: 0px;
     margin: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -32,9 +32,9 @@ header {
 #headerbackground {
     width: 100%;
     height: 600px;
-    background-color: #A3320B;
+    background-color: #000000;
     position: relative;
-    background-image: url(images/backgroundlight-tablet.png);
+    background-image: url(images/backgroundlight-mobile.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -104,10 +104,10 @@ header {
 
 #menu li {
     color: white;
-    font-size: 2em;
+    font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
-    width: 250px;
+    width: 200px;
     margin: 0px;
     margin-top: 0px;
     padding: 10px;
@@ -132,10 +132,9 @@ header {
 }
 
 main {
-    /*background-color: #6f1600;*/
     background-color: rgb(0, 0, 0);
     width: 100%;
-    height: 2400px;
+    height: 3300px;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -151,17 +150,16 @@ main {
 }
 
 #div1 {
-    padding-top: 60px;
     width: 600px;
-    height: 300px;
+    height: 170px;
 }
 
 #p1 {
-    font-size: 3.5em;
+    font-size: 2.8em;
     font-weight: lighter;
     position: relative;
     top: 5%;
-    padding-left: 40px;
+    padding-left: 150px;
     color: white;
     margin: 0px;
 }
@@ -169,11 +167,11 @@ main {
 #p2 {
     margin: 0px;
     text-align: right;
-    font-size: 4em;
+    font-size: 2.6em;
     font-weight: bold;
     position: relative;
     top: 5%;
-    right: 30px;
+    right: 15%;
     color: #B52400;
 }
 
@@ -187,64 +185,145 @@ main {
 }
 
 #p4 {
-    text-align: center;
     color: white;
-    margin-left: 20px;
+    margin-left: 80px;
     padding: 20px;
-    font-size: 1.3em;
+    text-align: center;
 }
 
 #whatconvince {
-    width: 600px;
-    height: 380px;
+    width: 95%;
+    height: 1480px;
     border-radius: 5px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin: auto;
 }
 
 #whatconvince h3 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 1.6em;
     text-align: center;
     color: white;
     padding: 0px;
-    margin-bottom: 20px;
+    margin: 30px 0px 10px 0px;
     border-radius: 5px;
 }
 
-#whatconvince p {
-    font-size: 1.5em;
-    text-align: center;
+
+#purpose {
+    display: flex;
+    flex-direction: column;
+    height: 1580px;
+    width: 95%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.purposeImg {
+    width: 360px;
+    height: 600px;
+    background-color: white;
+    background-size: cover;
+}
+
+.purposeImg p {
+    font-size: 1em;
+    text-align: justify;
     color: white;
-    padding: 0px;
+    padding: 25px;
+    margin: 0px;
     text-indent: 15px;
     line-height: 1.3em;
 }
 
-#aboutemotion {
-    background-color: white;
-    width: 600px;
-    height: 320px;
-    border-radius: 5px;
+#img1 {
+    background-image: url(images/feeling.png);
 }
 
-#aboutemotion p {
+#img2 {
+    background-image: url(/images/flame.png);
+}
+
+#textPurpose {
+    height: 450px;
+    width: 70%;
+    background-color: rgb(0, 0, 0);
+}
+
+#textPurpose h3 {
+    color: #ffffff;
+    padding: 15px;
+}
+
+#textPurpose p {
+    font-size: 1.1em;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    margin: 0px;
+    text-indent: 15px;
+    line-height: 1.3em;
+}
+
+#techs {
+    background-color: white;
+    width: 550px;
+    height: 450px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.techImg {
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+#htmlImg {
+    background-image: url(images/html.png);
+}
+
+#cssImg {
+    background-image: url(images/css.png);
+}
+
+#javascriptImg {
+    background-image: url(images/javascript.png);
+}
+
+#mysqlImg {
+    background-image: url(images/mysql.png);
+}
+
+#gitImg {
+    background-image: url(images/git.png);
+}
+
+#githubImg {
+    background-image: url(images/github.png);
+}
+
+
+#techs p {
     text-align: center;
     color: rgb(0, 0, 0);
     padding: 20px;
+    text-indent: 15px;
     line-height: 1.5em;
 }
 
 
-#aboutemotion a {
+#techs a {
     text-decoration: none;
     color: #E82E00;
     cursor: text;
 }
 
+
 #personalinfo {
-    width: 500px;
-    height: 750px;
+    width: 95%;
+    height: 700px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -252,10 +331,9 @@ main {
     justify-content: center;
 }
 
-
 #photo {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     background-color: #A3320B;
     background-image: url(images/myself.jpg);
     background-size: cover;
@@ -263,7 +341,6 @@ main {
     border-radius: 5px;
     
     transition: 0.5s;
-    
 }
 
 #photo:hover { 
@@ -271,8 +348,8 @@ main {
 }
 
 #borderphoto {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     transition: 0.5s;
     overflow: hidden;
     border: 2px solid #E82E00;
@@ -282,13 +359,14 @@ main {
 #personalinfo h3 {
     text-align: center;
     color: white;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
 
 #personalinfo p {
-    text-align: center;
+    width: 500px;
+    text-align: justify;
     color: white;
     padding: 20px;
     text-indent: 15px;
@@ -350,3 +428,5 @@ footer p {
 
 
 
+
+    
