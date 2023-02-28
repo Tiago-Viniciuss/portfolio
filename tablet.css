@@ -29,31 +29,6 @@ header {
     background-color: rgba(0, 0, 0, 0.866);
 }
 
-#headerbackground {
-    width: 100%;
-    height: 600px;
-    background-color: #000000;
-    position: relative;
-    background-image: url(images/backgroundlight-mobile.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  
-}
-
-
-#light{
-    background-color: #151213d2;
-    width: 100%;
-    height: 599px;
-    position: relative;
-    z-index: 96;
-}
-
-#light:hover {
-    background-color: transparent;
-    cursor: pointer;
-}
 
 #burguer {
     background-color: transparent;
@@ -134,13 +109,8 @@ header {
 main {
     background-color: rgb(0, 0, 0);
     width: 100%;
-    height: 3300px;
     margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    display: block;
 }
 
 .info {
@@ -149,17 +119,25 @@ main {
     width: 200px;
 }
 
-#div1 {
-    width: 600px;
+#containertitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    width: 320px;
     height: 170px;
+    margin: 50px 0px 0px 0px;
 }
 
 #p1 {
-    font-size: 2.8em;
+    font-size: 2.4em;
     font-weight: lighter;
     position: relative;
     top: 5%;
-    padding-left: 150px;
+    padding-left: 30px;
     color: white;
     margin: 0px;
 }
@@ -167,12 +145,13 @@ main {
 #p2 {
     margin: 0px;
     text-align: right;
-    font-size: 2.6em;
+    font-size: 1.9em;
     font-weight: bold;
     position: relative;
     top: 5%;
-    right: 15%;
+    right: 9%;
     color: #B52400;
+    transition: 2s;
 }
 
 #p3 {
@@ -182,102 +161,112 @@ main {
     text-decoration: none;
     font-size: 1.3em;
     cursor: text;
+    transition: 2s;
 }
 
 #p4 {
     color: white;
-    margin-left: 80px;
+    text-align: center;
     padding: 20px;
-    text-align: center;
 }
 
-#whatconvince {
-    width: 95%;
-    height: 1480px;
-    border-radius: 5px;
-    margin: auto;
-}
-
-#whatconvince h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.6em;
-    text-align: center;
-    color: white;
-    padding: 0px;
-    margin: 30px 0px 10px 0px;
+#introduction {
+    height: 300px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(8, 8, 8);
+    margin:  30px auto; 
     border-radius: 5px;
 }
 
-
-#purpose {
-    display: flex;
-    flex-direction: column;
-    height: 1580px;
-    width: 95%;
-    margin: auto;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-.purposeImg {
-    width: 360px;
-    height: 600px;
-    background-color: white;
-    background-size: cover;
-}
-
-.purposeImg p {
-    font-size: 1em;
+#introduction p {
+    font-size: 0.9em;
     text-align: justify;
-    color: white;
     padding: 25px;
     margin: 0px;
     text-indent: 15px;
-    line-height: 1.3em;
+    line-height: 1.5em;
+    margin: auto;
+    font-weight: 600;
 }
 
-#img1 {
-    background-image: url(images/feeling.png);
+#aboutfrontend {
+    width: 95%;
+    height: 730px;
+    border-radius: 5px;
+    margin: auto;
 }
 
-#img2 {
-    background-image: url(/images/flame.png);
-}
-
-#textPurpose {
-    height: 450px;
-    width: 70%;
-    background-color: rgb(0, 0, 0);
-}
-
-#textPurpose h3 {
-    color: #ffffff;
-    padding: 15px;
-}
-
-#textPurpose p {
-    font-size: 1.1em;
-    text-align: justify;
+#aboutfrontend h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+    text-decoration: underline;
     color: rgb(255, 255, 255);
+    background-color: #000000;
+    padding: 5px;
+    margin: 40px 0px 40px 0px;
+}
+
+#aboutfrontend  p {
+    font-size: 0.9em;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    background-color: white;
     padding: 25px;
-    margin: 0px;
+    margin: 40px 0px;
     text-indent: 15px;
     line-height: 1.3em;
+    border-radius: 5px;
+    font-weight: 600;
 }
+
+#turnlight {
+    width: 100%;
+    height: 250px;
+    margin: auto;
+    background-color: #000000;
+    position: relative;
+    background-image: url(images/backgroundlight-mobile.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+
+
+#light{
+    background-color: #151213d2;
+    width: 100%;
+    height: 250px;
+    margin: auto;
+    position: relative;
+    z-index: 96;
+}
+
+#light:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+
 
 #techs {
-    background-color: white;
-    width: 550px;
-    height: 450px;
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 100px;
     border-radius: 5px;
-    margin-top: 50px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: end;
 }
 
 .techImg {
     background-size: cover;
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
 
 #htmlImg {
@@ -365,8 +354,7 @@ main {
 }
 
 #personalinfo p {
-    width: 500px;
-    text-align: justify;
+    text-align: center;
     color: white;
     padding: 20px;
     text-indent: 15px;
@@ -425,8 +413,3 @@ footer p {
 #backtop a:hover {
     color: #E82E00;
 }
-
-
-
-
-    
