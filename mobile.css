@@ -185,7 +185,8 @@ main {
     padding: 25px;
     margin: 0px;
     text-indent: 15px;
-    line-height: 1.3em;
+    line-height: 1.5em;
+    margin: auto;
 }
 
 #aboutfrontend {
