@@ -192,18 +192,19 @@ main {
 }
 
 #whatconvince {
-    width: 90%;
+    width: 95%;
     height: 1900px;
     border-radius: 5px;
+    margin: auto;
 }
 
 #whatconvince h3 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.6em;
+    font-size: 1.2em;
     text-align: center;
     color: white;
     padding: 0px;
-    margin: 30px 0px;
+    margin: 30px 0px 10px 0px;
     border-radius: 5px;
 }
 
@@ -212,6 +213,8 @@ main {
     display: flex;
     flex-direction: column;
     height: 1800px;
+    width: 95%;
+    margin: auto;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 50px;
@@ -225,7 +228,7 @@ main {
 }
 
 .purposeImg p {
-    font-size: 1em;
+    font-size: 0.9em;
     text-align: justify;
     color: white;
     padding: 25px;
@@ -239,7 +242,7 @@ main {
 }
 
 #img2 {
-    background-image: url();
+    background-image: url(/images/flame.png);
 }
 
 #img3 {
