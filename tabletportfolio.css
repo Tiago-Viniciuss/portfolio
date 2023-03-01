@@ -122,12 +122,11 @@ header {
     color: #E82E00;
 }
 
-
 #personalinfoPort {
-    width: 50%;
-    height: 700px;
-    margin: auto;
+    width: 700px;
+    height: 750px;
     border-radius: 5px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,8 +134,8 @@ header {
 }
 
 #photo {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     background-color: #A3320B;
     background-image: url(images/myself.jpg);
     background-size: cover;
@@ -151,8 +150,8 @@ header {
 }
 
 #borderphoto {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     transition: 0.5s;
     overflow: hidden;
     border: 2px solid #E82E00;
@@ -168,11 +167,13 @@ header {
 }
 
 #personalinfoPort p {
-    text-align: center;
+    width: 450px;
+    text-align: justify;
     color: white;
-    padding: 20px;
+    padding: 0px;
     text-indent: 15px;
     line-height: 1.5em;
+    font-size: 1.05em;
 }
 
 #personalinfoPort a {
