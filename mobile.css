@@ -15,7 +15,8 @@ header {
     background-color: black;
 }
 
-header button {
+
+#menuButton {
     background-color: transparent;
     color: white;
     position: fixed;
@@ -25,6 +26,7 @@ header button {
     z-index: 100;
     cursor: pointer;
     border: none;
+    font-size: 2em;
 }
 
 
@@ -71,14 +73,16 @@ header button {
 }
 
 .introduction h1 {
-    margin: 0px 0px 0px 40px;
+    margin: 0px 60px 0px 0px;
     font-size: 2.2em;
+    text-align: center;
 }
 
 .introduction h2 {
     margin: 10px 0px 0px 60px;
     color: var(--color1);
     font-size: 1.6em;
+    text-align: center;
 }
 
 .aboutMe {
@@ -109,7 +113,7 @@ header button {
 .resume h3 {
     color: white;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 
 .resume a {
@@ -126,6 +130,23 @@ header button {
     margin: auto;
     text-align: justify;
     font-size: 1em;
+}
+
+
+#downloadcv {
+    background-color: rgb(0, 0, 0);
+   color: white;
+   border: 2px solid var(--color1);
+   font-weight: bold;
+   font-size: 0.7em;
+   border-radius: 10px;
+   transition: 0.5s;
+   padding: 3px 15px;
+}
+
+#downloadcv:hover {
+    background-color: var(--color1);
+    cursor: pointer;
 }
 
 .services {
@@ -326,18 +347,18 @@ header button {
     background-image: url(images/restaurant.png);
 }
 
-.myBlog {
+.myArticle {
     background-color: black;
 }
 
-.myBlog h3 {
+.myArticle h3 {
     color: white;
     text-align: center;
     font-size: 1.5em;
     margin: 0px 0px 25px 0px;
 }
 
-.myBlog a {
+.myArticle a {
     color: var(--color1);
     text-align: center;
     font-size: 1.2em;
@@ -345,7 +366,7 @@ header button {
     cursor: text;
 }
 
-.containerBlog {
+.containerArticle {
     height: 1800px;
     display: flex;
     flex-direction: column;
@@ -353,7 +374,7 @@ header button {
     align-items: center;
 }
 
-.containerBlog div {
+.containerArticle div {
     width: 300px;
     height: 480px;
     background-color: black;
@@ -378,7 +399,7 @@ header button {
     cursor: pointer;
 }
 
-#content1 .blogResume{
+#content1 .articleResume{
     width: 300px;
     height: 240px;
     background-color: rgb(0, 0, 0);
@@ -386,7 +407,7 @@ header button {
     margin-bottom: 25px;
 }
 
-#imgBlog1 {
+#imgArticle1 {
     width: 300px;
     height: 300px;
     background-image: url(images/artificial.jpg);
@@ -394,7 +415,7 @@ header button {
     transition: 1s;
 }
 
-#imgBlog1:hover {
+#imgArticle1:hover {
     transform: scale(1.1);
 }
 
@@ -407,7 +428,7 @@ header button {
     cursor: pointer;
 }
 
-#content2 .blogResume{
+#content2 .articleResume{
     width: 300px;
     height: 200px;
     background-color: rgb(0, 0, 0);
@@ -415,7 +436,7 @@ header button {
     margin-bottom: 25px;
 }
 
-#imgBlog2 {
+#imgArticle2 {
     width: 300px;
     height: 300px;
     background-image: url(images/coffee.jpg);
@@ -423,7 +444,7 @@ header button {
     transition: 1s;
 }
 
-#imgBlog2:hover {
+#imgArticle2:hover {
     transform: scale(1.1);
 }
 
@@ -437,7 +458,7 @@ header button {
     cursor: pointer;
 }
 
-#content3 .blogResume {
+#content3 .articleResume {
     width: 300px;
     height: 200px;
     background-color: rgb(0, 0, 0);
@@ -445,7 +466,7 @@ header button {
     margin-bottom: 25px;
 }
 
-#imgBlog3 {
+#imgArticle3 {
     width: 300px;
     height: 300px;
     background-image: url(images/lanhouse.jpg);
@@ -453,23 +474,23 @@ header button {
     transition: 1s;
 }
 
-#imgBlog3:hover {
+#imgArticle3:hover {
     transform: scale(1.1);
 }
 
-.blogResume h4 {
+.articleResume h4 {
     font-size: 1.2em;
     margin: 10px 0px 0px 10px;
 }
 
-.blogResume p {
+.articleResume p {
     padding: 15px;
     text-align: justify;
     margin: auto;
     font-size: 0.9em;
 }
 
-.blogResume a {
+.articleResume a {
     padding: 3px 15px;
     border: 2px solid var(--color1);
     border-radius: 20px;
@@ -479,7 +500,7 @@ header button {
     cursor: pointer;
 }
 
-.blogResume a:hover {
+.articleResume a:hover {
     background-color: var(--color1);
     transition: 0.5s;
 }

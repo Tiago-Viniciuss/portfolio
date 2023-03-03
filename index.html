@@ -10,7 +10,7 @@
 </head>
 <body>
     <header class="header">
-        <button class="material-symbols-outlined" onclick="openMenu()">apps</button>
+        <button class="material-symbols-outlined" onclick="openMenu()" id="menuButton">apps</button>
         <nav id="menu">
             <a href="#">Home</a>
             <a href="#">My Blog</a>
@@ -27,8 +27,12 @@
         <section class="resume">
             <h3>I am <a href="#">Tiago Vinícius</a></h3>
             <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo excepturi magnam, blanditiis consectetur quibusdam voluptas perspiciatis totam. Iste, labore? In harum cumque dolorem dicta quod sunt minima atque laboriosam repudiandae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, quaerat rem ratione in quam commodi similique, laudantium nam, placeat facere dolores vero illo veniam. Iusto eaque quidem explicabo maxime ad. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia voluptatem pariatur mollitia magnam veniam. Ratione ex, atque corrupti, alias commodi quia sequi eligendi aliquid maiores ullam vitae voluptatem dolores porro!
+                I'm a Brazilian born in the 20th century and passionate about timeless music, good movies and technology. My first contact with coding was at the age of 18, when I decided to go to university. At that time, I was living alone in a nearby capital, so I needed to work and I left university. After 6 years, I'm back and full of energy to build a solid career and grow as a front-end developer.
+                
+                
+                <br> <br> <a href="cv/TIAGO VINÍCIUS ENG.pdf" download id="downloadcv">Download CV</a>
             </p>
+           
         </section>
     </main>
     <section class="services">
@@ -86,26 +90,29 @@
             </div>
         </div>
     </section>
-    <section class="myBlog">
-        <h3>My <a href="#">Blog</a></h3>
-        <div class="containerBlog">
+    <section class="myArticle">
+        <h3>My <a href="#">Articles</a></h3>
+        <div class="containerArticle">
             <div id="content1">
                 <div class="border">
-                    <div id="imgBlog1"></div>
+                    <div id="imgArticle1"></div>
                 </div>
-                <div class="blogResume">
+                <div class="articleResume">
                     <h4>Are you ready for AI?</h4>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat similique architecto culpa nulla optio autem obcaecati blanditiis doloremque fugit hic, voluptatibus vel atque amet itaque provident a? Tenetur, velit rem!
+                        This article was written by me in 2023 and brings my reflections on Artificial Intelligence and how we can use it in a moderate and wise way. Feel free to complement and leave your opinion on the subject.
+                        <br> <br>
+                        <i>Note: The article was written in Portuguese.</i>
+
                     </p>
-                    <a href="#">Read More</a>
+                    <a href="https://www.linkedin.com/pulse/voc%25C3%25AA-est%25C3%25A1-pronto-para-ia-tiago-vin%25C3%25ADcius/?trackingId=TY6ejaUfSWGs%2FSWUAJPc7Q%3D%3D" target="_blank">Read More</a>
                 </div>
             </div>
             <div id="content2">
                 <div class="border">
-                    <div id="imgBlog2"></div>
+                    <div id="imgArticle2"></div>
                 </div>
-                <div class="blogResume">
+                <div class="articleResume">
                     <h4>Coffee? Yes, please.</h4>
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat similique architecto culpa nulla optio autem obcaecati blanditiis doloremque fugit hic, voluptatibus vel atque amet itaque provident a? Tenetur, velit rem!
@@ -115,9 +122,9 @@
             </div>
             <div id="content3">
                 <div class="border">
-                    <div id="imgBlog3"></div>
+                    <div id="imgArticle3"></div>
                 </div>
-                <div class="blogResume">
+                <div class="articleResume">
                     <h4>The new Lanhouse's generation</h4>
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat similique architecto culpa nulla optio autem obcaecati blanditiis doloremque fugit hic, voluptatibus vel atque amet itaque provident a? Tenetur, velit rem!
