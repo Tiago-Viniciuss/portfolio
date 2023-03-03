@@ -1,0 +1,314 @@
+@charset "UTF-8";
+
+:root  {
+    --color1:  #d50909;
+}
+
+body {
+    background-color: gainsboro;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 70px;
+    background-color: black;
+}
+
+header button {
+    background-color: transparent;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 15px;
+    z-index: 100;
+    cursor: pointer;
+    border: none;
+}
+
+#menu {
+    background-color: rgba(0, 0, 0, 0.979);
+    width: 90%;
+    height: 0px;
+    margin-top: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    position: fixed; 
+    z-index: 99;
+
+    visibility: hidden;
+    overflow-y: hidden;
+    transition: 0.7s;
+}
+
+#menu.active {
+    visibility: visible;
+    height: 800px;
+}
+
+
+#menu a {
+    font-size: 1.2em;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+.introduction {
+    background-color: black;
+    background-position: right;
+    background-size: cover;
+    height: 400px;
+    color: white;
+}
+
+.introduction h1 {
+    margin: 0px 0px 0px 40px;
+    font-size: 2.2em;
+}
+
+.introduction h2 {
+    margin: 10px 0px 0px 60px;
+    color: var(--color1);
+    font-size: 1.6em;
+}
+
+.aboutMe {
+    background-color: black;
+}
+
+.myPicture {
+    background-color: white;
+    background-image: url(images/picture.png);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.resume {
+    padding-bottom: 50px;
+}
+
+.resume h3 {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.resume a {
+    color: var(--color1);
+    text-align: center;
+    font-size: 1.2em;
+    text-decoration: none;
+    cursor: text;
+}
+
+.resume p {
+    color: white;
+    width: 200px;
+    margin: auto;
+    text-align: justify;
+    font-size: 1em;
+}
+
+.services {
+   background-color: black;
+}
+
+.services h3 {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0px 0px 25px 0px;
+}
+
+.services a {
+    color: var(--color1);
+    text-align: center;
+    font-size: 1.2em;
+    text-decoration: none;
+    cursor: text;
+}
+
+
+.services p {
+    color: white;
+    width: 200px;
+    margin: auto;
+    text-align: justify;
+    font-size: 1em;
+}
+
+.typeServices {
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.typeServices div {
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.typeServices > div > h4 {
+    color: white;
+    margin: 40px 0px 10px 0px;
+    font-size: 1.3em;
+}
+
+.typeServices > div > p {
+    color: white;
+    margin: 0;
+    font-size: 0.8em;
+}
+
+#webDesign {
+    background-image: url(images/webdesign.png);
+}
+
+#socialMedia {
+    background-image: url(images/socialmedia.png);
+}
+
+#photoEditing {
+    background-image: url(images/photoediting.png);
+}
+
+#cleanCode {
+    background-image: url(images/cleancode.png);
+}
+
+.portfolio {
+    background-color: black;
+}
+
+.portfolio h3 {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0px 0px 25px 0px;
+}
+
+.portfolio a {
+    color: var(--color1);
+    text-align: center;
+    font-size: 1.2em;
+    text-decoration: none;
+    cursor: text;
+}
+
+.containerPortfolio {
+    background-color: black;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+
+.containerPortfolio div {
+    width: 300px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+#backgroundPortfolio1  {
+    background-color: rgba(0, 0, 0, 0.829);
+    width: 300px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#backgroundPortfolio1 a {
+    color: white;
+    cursor: pointer;
+}
+
+
+#backgroundPortfolio2  {
+    background-color: rgba(0, 0, 0, 0.829);
+    width: 300px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#backgroundPortfolio2 a {
+    color: white;
+    cursor: pointer;
+}
+
+#backgroundPortfolio3  {
+    background-color: rgba(0, 0, 0, 0.829);
+    width: 300px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#backgroundPortfolio3 a {
+    color: white;
+    cursor: pointer;
+}
+
+#backgroundPortfolio4  {
+    background-color: rgba(0, 0, 0, 0.829);
+    width: 300px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#backgroundPortfolio4 a {
+    color: white;
+    cursor: pointer;
+}
+
+
+#musicStore {
+    background-image: url(images/musicstore.png);
+}
+
+#club {
+    background-image: url(images/club.png);
+}
+
+#bank {
+    background-image: url(images/bank.png);
+}
+
+#restaurant {
+    background-image: url(images/restaurant.png);
+}

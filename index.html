@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="mobile.css" media="(max-width: 650px)">
+    <title>Tiago Vinícius Tech</title>
+</head>
+<body>
+    <header class="header">
+        <button class="material-symbols-outlined" onclick="openMenu()">apps</button>
+        <nav id="menu">
+            <a href="#">Home</a>
+            <a href="#">My Blog</a>
+            <a href="#">Social Media</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <section class="introduction">
+        <h1>Hello, World!</h1>
+        <h2>I am Web Developer</h2>
+    </section>
+    <main class="aboutMe">
+        <div class="myPicture"></div>
+        <section class="resume">
+            <h3>I am <a href="#">Tiago Vinícius</a></h3>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo excepturi magnam, blanditiis consectetur quibusdam voluptas perspiciatis totam. Iste, labore? In harum cumque dolorem dicta quod sunt minima atque laboriosam repudiandae.
+            </p>
+        </section>
+    </main>
+    <section class="services">
+        <h3>My <a href="#">Services</a></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime harum sapiente commodi quidem?</p>
+        <div class="typeServices">
+            <div id="webDesign">
+                <h4>Web Design</h4>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur facilis commodi tempora eligendi reiciendis ullam
+                </p>
+            </div>
+            <div id="socialMedia">
+                <h4>Social Media</h4>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur facilis commodi tempora eligendi reiciendis ullam
+                </p>
+            </div>
+            <div id="photoEditing">
+                <h4>Photo Editing</h4>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur facilis commodi tempora eligendi reiciendis ullam
+                </p>
+            </div>
+            <div id="cleanCode">
+                <h4>Clean Code</h4>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur facilis commodi tempora eligendi reiciendis ullam
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <h3>My <a href="#">Portfolio</a></h3>
+        <div class="containerPortfolio">
+            <div id="musicStore" onmouseenter="openSite1()", onmouseleave="closeSite1()">
+                <div id="backgroundPortfolio1">
+                    <a href="https://tiago-viniciuss.github.io/music-store/index.html" target="_blank">Visit <strong>Long Riff Store</strong></a>
+                </div>
+            </div>
+            <div id="club" onmouseenter="openSite2()", onmouseleave="closeSite2()">
+                <div id="backgroundPortfolio2">
+                    <a href="https://tiago-viniciuss.github.io/Site-Infectus-MC/" target="_blank">Visit <strong>Infectus MC</strong></a>
+                </div>
+            </div>
+            <div id="bank" onmouseenter="openSite3()", onmouseleave="closeSite3()">
+                <div id="backgroundPortfolio3">
+                    <a href="https://tiago-viniciuss.github.io/ultra-bank/index.html" target="_blank">Visit <strong>Ultra Bank</strong></a>
+                </div>
+            </div>
+            <div id="restaurant" onmouseenter="openSite4()", onmouseleave="closeSite4()">
+                <div id="backgroundPortfolio4">
+                    <a href="https://tiago-viniciuss.github.io/website-restaurante/index.html" target="_blank">Visit <strong>Restaurante Graciliano</strong></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="myBlog">
+        <h3>My Blog</h3>
+        <div id="content1"></div>
+        <div id="content2"></div>
+        <div id="content3"></div>
+    </section>
+    <footer class="footer">
+        <p>Developed by <a href="#">Tiago Vinícius</a></p>
+        <p>All rights reserved ®</p>
+        <p>Lisbon, 2023</p>
+        <button class="material-symbols-outlined">keyboard_double_arrow_up</button>
+    </footer>
+    <script src="/script/code.js"></script>
+</body>
+</html>
