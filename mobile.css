@@ -51,9 +51,10 @@ header button {
 
 
 #menu a {
-    font-size: 1.2em;
+    font-size: 1.5em;
+    font-weight: bold;
     margin: 20px;
-    color: white;
+    color: var(--color1);
     text-decoration: none;
 }
 
