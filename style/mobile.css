@@ -85,7 +85,7 @@ header button {
 
 .myPicture {
     background-color: white;
-    background-image: url(images/picture.png);
+    background-image: url(/images/picture.png);
     background-position: center;
     background-size: cover;
     width: 250px;
@@ -184,19 +184,19 @@ header button {
 }
 
 #webDesign {
-    background-image: url(images/webdesign.png);
+    background-image: url(../images/webdesign.png);
 }
 
 #socialMedia {
-    background-image: url(images/socialmedia.png);
+    background-image: url(../images/socialmedia.png);
 }
 
 #photoEditing {
-    background-image: url(images/photoediting.png);
+    background-image: url(../images/photoediting.png);
 }
 
 #cleanCode {
-    background-image: url(images/cleancode.png);
+    background-image: url(../images/cleancode.png);
 }
 
 .portfolio {
@@ -298,17 +298,17 @@ header button {
 
 
 #musicStore {
-    background-image: url(images/musicstore.png);
+    background-image: url(../images/musicstore.png);
 }
 
 #club {
-    background-image: url(images/club.png);
+    background-image: url(../images/club.png);
 }
 
 #bank {
-    background-image: url(images/bank.png);
+    background-image: url(../images/bank.png);
 }
 
 #restaurant {
-    background-image: url(images/restaurant.png);
+    background-image: url(../images/restaurant.png);
 }
