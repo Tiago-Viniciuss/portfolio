@@ -587,9 +587,9 @@ header {
 }
 
 #containerChannels div {
-    width: 130px;
-    height: 130px;
-    margin: 15px;
+    width: 140px;
+    height: 140px;
+    margin: 0px;
     background-color: #d50909;
     background-size: cover;
     background-position: center;
@@ -603,8 +603,8 @@ header {
 }
 
 #containerChannels a {
-    width: 130px;
-    height: 130px;
+    width: 140px;
+    height: 140px;
 }
 
 
