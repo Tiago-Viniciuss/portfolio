@@ -36,7 +36,7 @@ header {
 
 #menu {
     background-color: rgba(0, 0, 0, 0.979);
-    width: 90%;
+    width: 99%;
     height: 0px;
     margin-top: 50px;
     
@@ -567,6 +567,10 @@ header {
     transition: 1s
 }
 
+.channels {
+    margin-bottom: 80px;
+}
+
 .channels h3 {
     color: white;
     text-align: center;
@@ -575,16 +579,17 @@ header {
 }
 
 #containerChannels {
-    height: 400px;
+    height: 300px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #containerChannels div {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
+    margin: 15px;
     background-color: #d50909;
     background-size: cover;
     background-position: center;
@@ -596,6 +601,12 @@ header {
     transform: scale(1.1);
     cursor: pointer;
 }
+
+#containerChannels a {
+    width: 130px;
+    height: 130px;
+}
+
 
 #linkedin {
     background-image: url(images/linkedin1.png);
