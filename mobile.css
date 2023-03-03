@@ -12,7 +12,11 @@ body {
 
 header {
     height: 70px;
-    background-color: black;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.947);
+    position: fixed;
+    top: 0;
+    z-index: 70;
 }
 
 
@@ -70,6 +74,7 @@ header {
     background-size: cover;
     height: 100px;
     color: rgb(255, 255, 255);
+    margin-top: 100px;
 }
 
 .introduction h1 {
@@ -102,8 +107,9 @@ header {
 }
 
 .myPicture:hover {
+    background-image: url(images/picture2.png);
     transform: scale(1.1);
-    box-shadow: 0px 0px 10px var(--color1);
+    transition: 1s
 }
 
 .resume {
@@ -537,4 +543,88 @@ header {
 
 .footer a:hover {
     text-decoration: underline;
+}
+
+/*
+    Social Network Section
+*/
+
+.myPictureSocialmedia {
+    background-color: white;
+    background-image: url(images/picture3.png);
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.myPictureSocialmedia:hover {
+    background-image: url(images/picture4.png);
+    transform: scale(1.1);
+    transition: 1s
+}
+
+.channels h3 {
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+    margin: 30px 0px 50px 0px;
+}
+
+#containerChannels {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#containerChannels div {
+    width: 150px;
+    height: 150px;
+    background-color: #d50909;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    transition: 0.6s;
+}
+
+#containerChannels div:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#linkedin {
+    background-image: url(images/linkedin1.png);
+}
+
+#linkedin:hover {
+    background-image: url(images/linkedin2.png);
+}
+
+#github {
+    background-image: url(images/github1.png);
+}
+
+#github:hover {
+    background-image: url(images/github2.png);
+}
+
+#instagram {
+    background-image: url(images/instagram1.png);
+}
+
+#instagram:hover {
+    background-image: url(images/instagram2.png);
+}
+
+#whatsapp {
+    background-image: url(images/whatsapp1.png);
+}
+
+#whatsapp:hover {
+    background-image: url(images/whatsapp2.png);
 }
