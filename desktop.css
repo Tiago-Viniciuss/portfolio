@@ -1,0 +1,695 @@
+@charset "UTF-8";
+
+:root  {
+    --color1:  #d50909;
+}
+
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.947);
+    position: fixed;
+    top: 0;
+    z-index: 70;
+}
+
+
+#menuButton {
+    background-color: transparent;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 15px;
+    z-index: 100;
+    cursor: pointer;
+    border: none;
+    font-size: 3.2em;
+}
+
+#menuButton:hover {
+    color: var(--color1);
+}
+
+
+#menu {
+    background-color: rgba(0, 0, 0, 0.979);
+    width: 99%;
+    height: 0px;
+    margin-top: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    position: fixed; 
+    z-index: 99;
+
+    visibility: hidden;
+    overflow-y: hidden;
+    transition: 0.7s;
+}
+
+#menu.active {
+    visibility: visible;
+    height: 100vh;
+}
+
+
+#menu a {
+    font-size: 2.5em;
+    width: 300px;
+    font-weight: bold;
+    margin: 60px 0px 0px 45px;
+    padding: 0px 10px;
+    color: white;
+    text-decoration: none;
+    background-color: var(--color1);
+    transition: 1s;
+}
+
+#menu a:hover {
+    width: 700px;
+    letter-spacing: 15px;
+}
+
+.introduction {
+    height: 600px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textIntro {
+    margin: 100px;
+}
+
+.introduction h1 {
+    margin: 0px 40px 0px 20px;
+    font-size: 4em;
+    text-align: center;
+}
+
+.introduction h2 {
+    margin: 20px 0px 0px 80px;
+    color: var(--color1);
+    font-size: 2.9em;
+    text-align: center;
+}
+
+#backgroundIntro {
+    width: 700px;
+    height: 600px;
+    background-image: url(images/razorman2023_lion_cyperpunk_only_side_head_cacda055-d6f2-49ee-98e2-2dbbbb9c0e07.png);
+    background-position: left;
+    background-size: cover;
+}
+
+.aboutMe {
+    background-color: black;
+    padding-top: 100px;
+}
+
+.myPicture {
+    background-color: white;
+    background-image: url(images/picture.png);
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.myPicture:hover {
+    background-image: url(images/picture2.png);
+    transform: scale(1.1);
+    transition: 1s
+}
+
+.resume {
+    padding: 35px 0px;
+}
+
+.resume h3 {
+    color: white;
+    text-align: center;
+    font-size: 2.3em;
+}
+
+.resume a {
+    color: var(--color1);
+    text-align: center;
+    font-size: 1.2em;
+    text-decoration: none;
+    cursor: text;
+}
+
+.resume p {
+    color: white;
+    width: 600px;
+    margin: auto;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+
+#downloadcv {
+    background-color: rgb(0, 0, 0);
+   color: white;
+   border: 2px solid var(--color1);
+   font-weight: bold;
+   font-size: 0.7em;
+   border-radius: 10px;
+   transition: 0.5s;
+   padding: 3px 15px;
+}
+
+#downloadcv:hover {
+    background-color: var(--color1);
+    cursor: pointer;
+}
+
+.services {
+   background-color: black;
+   margin-top: 150px;
+}
+
+.services h3 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    margin: 0px 0px 25px 0px;
+}
+
+.services a {
+    color: var(--color1);
+    text-align: center;
+    font-size: 1.2em;
+    text-decoration: none;
+    cursor: text;
+}
+
+
+.services p {
+    color: white;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+.typeServices {
+    height: 650px;
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.typeServices div {
+    width: 330px;
+    height: 280px;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.typeServices > div > h4 {
+    color: white;
+    margin: 60px 0px 10px 0px;
+    font-size: 1.4em;
+}
+
+.typeServices > div > p {
+    width: 250px;
+    color: white;
+    margin: 0;
+    font-size: 1em;
+    padding: 10px;
+}
+
+#webDesign {
+    background-image: url(images/webdesign.png);
+}
+
+#socialMedia {
+    background-image: url(images/socialmedia.png);
+}
+
+#photoEditing {
+    background-image: url(images/photoediting.png);
+}
+
+#cleanCode {
+    background-image: url(images/cleancode.png);
+}
+
+.portfolio {
+    background-color: black;
+    margin-top: 80px;
+}
+
+.portfolio h3 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    margin: 10px 0px 45px 0px;
+}
+
+.portfolio a {
+    color: var(--color1);
+    text-align: center;
+    font-size: 1.2em;
+    text-decoration: none;
+    cursor: text;
+}
+
+.containerPortfolio {
+    background-color: black;
+    width: 650px;
+    height: 1550px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+
+.containerPortfolio div {
+    width: 600px;
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+
+.containerPortfolio div:hover {
+    border: 2px solid var(--color1);
+}
+
+
+#backgroundPortfolio1  {
+    background-color: rgba(0, 0, 0, 0.905);
+    width: 600px;
+    height: 360px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#backgroundPortfolio1 a {
+    color: white;
+    cursor: pointer;
+}
+
+
+#backgroundPortfolio2  {
+    background-color: rgba(0, 0, 0, 0.829);
+    width: 600px;
+    height: 360px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#backgroundPortfolio2 a {
+    color: white;
+    cursor: pointer;
+}
+
+#backgroundPortfolio3  {
+    background-color: rgba(0, 0, 0, 0.829);
+    width: 600px;
+    height: 360px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#backgroundPortfolio3 a {
+    color: white;
+    cursor: pointer;
+}
+
+#backgroundPortfolio4  {
+    background-color: rgba(0, 0, 0, 0.829);
+    width: 600px;
+    height: 360px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#backgroundPortfolio4 a {
+    color: white;
+    cursor: pointer;
+}
+
+
+#musicStore {
+    background-image: url(images/musicstore.png);
+}
+
+#club {
+    background-image: url(images/club.png);
+}
+
+#bank {
+    background-image: url(images/bank.png);
+}
+
+#restaurant {
+    background-image: url(images/restaurant.png);
+}
+
+.myArticle {
+    background-color: black;
+    margin-top: 80px;
+}
+
+.myArticle h3 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    margin: 10px 0px 5px 0px;
+}
+
+.myArticle a {
+    color: var(--color1);
+    text-align: center;
+    font-size: 1.2em;
+    text-decoration: none;
+    cursor: text;
+}
+
+.containerArticle {
+    height: 700px;
+    width: 1150px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.containerArticle div {
+    width: 300px;
+    height: 480px;
+    background-color: black;
+    background-size: cover;
+    background-position: top;
+    border-radius: 3px;
+}
+
+.border {
+    width: 300px;
+    height: 270px;
+    overflow: hidden;
+}
+
+
+#content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#content1:hover {
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.592);
+}
+
+#content1 .articleResume{
+    width: 300px;
+    height: 240px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+}
+
+#imgArticle1 {
+    width: 300px;
+    height: 300px;
+    background-image: url(images/artificial.jpg);
+    border: 1px solid rgba(255, 255, 255, 0);
+    transition: 1s;
+}
+
+#imgArticle1:hover {
+    transform: scale(1.1);
+}
+
+#content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    cursor: pointer;
+}
+
+#content2:hover {
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.592);
+}
+
+#content2 .articleResume {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+}
+
+#imgArticle2 {
+    width: 300px;
+    height: 300px;
+    background-image: url(images/coffee.jpg);
+    border: 1px solid rgba(255, 255, 255, 0);
+    transition: 1s;
+}
+
+#imgArticle2:hover {
+    transform: scale(1.1);
+}
+
+
+#content3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    cursor: pointer;
+}
+
+#content3:hover {
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.592);
+}
+
+#content3 .articleResume {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+}
+
+#imgArticle3 {
+    width: 300px;
+    height: 300px;
+    background-image: url(images/lanhouse.jpg);
+    border: 1px solid rgba(255, 255, 255, 0);
+    transition: 1s;
+}
+
+#imgArticle3:hover {
+    transform: scale(1.1);
+}
+
+.articleResume h4 {
+    font-size: 1.2em;
+    margin: 10px 0px 0px 10px;
+}
+
+.articleResume p {
+    padding: 15px;
+    text-align: justify;
+    margin: auto;
+    font-size: 0.9em;
+}
+
+.articleResume a {
+    padding: 3px 15px;
+    border: 2px solid var(--color1);
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.articleResume a:hover {
+    background-color: var(--color1);
+    transition: 0.5s;
+}
+
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer button {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: none;
+    background-color: transparent;
+    color:white;
+    font-size: 1.9em;
+    margin-top: 150px;
+}
+
+.footer button:hover {
+    color: var(--color1);
+    cursor: pointer;
+}
+
+.footer a {
+    color: var(--color1);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/*
+    Social Network Section
+*/
+
+.backgroundIntro2 {
+    width: 800px;
+    height: 600px;
+    background-image: url(images/razorman2023_connection_design_red_black_background_realistic_t_9417b4d4-24a4-4e0e-aa36-732cc6f59a38.png);
+    background-position: left;
+    background-size: cover;
+}
+
+.myPictureSocialmedia {
+    background-color: white;
+    background-image: url(images/picture3.png);
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.myPictureSocialmedia:hover {
+    background-image: url(images/picture4.png);
+    transform: scale(1.1);
+    transition: 1s
+}
+
+.channels {
+    margin-bottom: 80px;
+}
+
+.channels h3 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    margin: 30px 0px 50px 0px;
+}
+
+#containerChannels {
+    height: 600px;
+    width: 550px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#containerChannels div {
+    width: 200px;
+    height: 200px;
+    margin: 35px;
+    background-color: #d50909;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    transition: 0.6s;
+}
+
+#containerChannels div:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#containerChannels a {
+    width: 200px;
+    height: 200px;
+}
+
+
+#linkedin {
+    background-image: url(images/linkedin1.png);
+}
+
+#linkedin:hover {
+    background-image: url(images/linkedin2.png);
+}
+
+#github {
+    background-image: url(images/github1.png);
+}
+
+#github:hover {
+    background-image: url(images/github2.png);
+}
+
+#instagram {
+    background-image: url(images/instagram1.png);
+}
+
+#instagram:hover {
+    background-image: url(images/instagram2.png);
+}
+
+#whatsapp {
+    background-image: url(images/whatsapp1.png);
+}
+
+#whatsapp:hover {
+    background-image: url(images/whatsapp2.png);
+}

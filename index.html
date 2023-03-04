@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="mobile.css" media="(max-width: 650px)">
     <link rel="stylesheet" href="tablet.css" media="(min-width: 650px) and (max-width: 1000px)">
+    <link rel="stylesheet" href="desktop.css" media="(min-width: 1000px)">
     <title>Tiago Vinícius Tech</title>
 </head>
 <body>
@@ -14,15 +15,17 @@
         <button class="material-symbols-outlined" onclick="openMenu()" id="menuButton">apps</button>
         <nav id="menu">
             <a href="#">Home</a>
-           
             <a href="socialmedia.html">Social Network</a>
              <a href="https://www.linkedin.com/in/tiago-vinicius/recent-activity/posts/" target="_blank">My Articles</a>
             <a href="https://wa.me/message/C2LSDOSY7BMEK1" target="_blank">Contact</a>
         </nav>
     </header>
     <section class="introduction">
-        <h1>Hello, World!</h1>
-        <h2>I am Web Developer</h2>
+        <div class="textIntro">
+            <h1>Hello, World!</h1>
+            <h2>I am Web Developer</h2>
+        </div>
+        <div id="backgroundIntro"></div>
     </section>
     <main class="aboutMe">
         <div class="myPicture"></div>
@@ -117,7 +120,7 @@
                 <div class="articleResume">
                     <h4>Coffee? Yes, please.</h4>
                     <p>
-                        An article about the loviest developers drink.
+                        An article about the loviest developers drink. Check it out!
                         <br> <br>
                         Coming soon.
                     </p>
