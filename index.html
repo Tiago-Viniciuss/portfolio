@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="desktop.css" media="(min-width: 1000px)">
     <title>Tiago Vinícius Tech</title>
 </head>
-<body>
+<body id="body">
     <header class="header">
         <button class="material-symbols-outlined" onclick="openMenu()" id="menuButton">apps</button>
+        <button onclick="changeThemeLight()" class="material-symbols-outlined" id="changeThemeLight">light_mode</button>
+        <button onclick="changeThemeDark()" class="material-symbols-outlined" id="changeThemeDark">dark_mode</button>
         <nav id="menu">
             <a href="#">Home</a>
             <a href="socialmedia.html">Social Network</a>
@@ -20,18 +22,18 @@
             <a href="https://wa.me/message/C2LSDOSY7BMEK1" target="_blank">Contact</a>
         </nav>
     </header>
-    <section class="introduction">
+    <section class="introduction" id="intro">
         <div class="textIntro">
-            <h1>Hello, World!</h1>
+            <h1 id="h1intro">Hello, World!</h1>
             <h2>I am Web Developer</h2>
         </div>
         <div id="backgroundIntro"></div>
     </section>
-    <main class="aboutMe">
-        <div class="myPicture"></div>
+    <main class="aboutMe" id="aboutMe">
+        <div class="myPicture" id="myPicture"></div>
         <section class="resume">
-            <h3>I am <a href="#">Tiago Vinícius</a></h3>
-            <p>
+            <h3 id="h3resume">I am <a href="#">Tiago Vinícius</a></h3>
+            <p id="pResume">
                 I'm a Brazilian born in the 20th century and passionate about timeless music, good movies and technology. My first contact with coding was at the age of 18, when I decided to go to university. At that time, I was living alone in a nearby capital, so I needed to work and I left university. After 6 years, I'm back and full of energy to build a solid career and grow as a front-end developer.
                 
                 
@@ -40,9 +42,9 @@
            
         </section>
     </main>
-    <section class="services">
-        <h3>My <a href="#">Skills</a></h3>
-        <p>I can build your website, or help you with some insights and tools about your social networks, such as Facebook, Instagram and Linkedin. Another skill I have is photo editing, so if you need to improve your photos let me know.</p>
+    <section class="services" id="skills">
+        <h3 id="h3skills">My <a href="#">Skills</a></h3>
+        <p id="pskills">I can build your website, or help you with some insights and tools about your social networks, such as Facebook, Instagram and Linkedin. Another skill I have is photo editing, so if you need to improve your photos let me know.</p>
         <div class="typeServices">
             <div id="webDesign">
                 <h4>Web Design</h4>
@@ -70,9 +72,9 @@
             </div>
         </div>
     </section>
-    <section class="portfolio">
-        <h3>My <a href="#">Portfolio</a></h3>
-        <div class="containerPortfolio">
+    <section class="portfolio" id="portfolio">
+        <h3 id="h3portfolio">My <a href="#">Portfolio</a></h3>
+        <div class="containerPortfolio" id="containerPortfolio">
             <div id="musicStore" onmouseenter="openSite1()", onmouseleave="closeSite1()">
                 <div id="backgroundPortfolio1">
                     <a href="https://tiago-viniciuss.github.io/music-store/index.html" target="_blank">Visit <strong>Long Riff Store</strong></a>
@@ -95,8 +97,8 @@
             </div>
         </div>
     </section>
-    <section class="myArticle">
-        <h3>My <a href="#">Articles</a></h3>
+    <section class="myArticle" id="myArticle">
+        <h3 id="h3article">My <a href="#">Articles</a></h3>
         <div class="containerArticle">
             <div id="content1">
                 <div class="border">

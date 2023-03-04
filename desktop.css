@@ -11,9 +11,9 @@ body {
 }
 
 header {
-    height: 80px;
+    height: 100px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.947);
+    background-color: rgb(0, 0, 0);
     position: fixed;
     top: 0;
     z-index: 70;
@@ -77,7 +77,38 @@ header {
     letter-spacing: 15px;
 }
 
+#changeThemeLight {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    margin: 25px;
+    font-size: 2.5em;
+    color: white;
+    background-color: transparent;
+    border: none;
+    display: block;
+    cursor: pointer;
+}
+
+#changeThemeDark {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    margin: 25px;
+    font-size: 2.5em;
+    color: white;
+    background-color: transparent;
+    border: none;
+    display: none;
+    cursor: pointer;
+}
+
 .introduction {
+    margin-top: 50px;
     height: 600px;
     background-color: black;
     color: rgb(255, 255, 255);
@@ -106,9 +137,15 @@ header {
 #backgroundIntro {
     width: 700px;
     height: 600px;
-    background-image: url(images/razorman2023_lion_cyperpunk_only_side_head_cacda055-d6f2-49ee-98e2-2dbbbb9c0e07.png);
+    background-image: url(images/lion2.png);
     background-position: left;
     background-size: cover;
+    z-index: 50;
+    transition: 0.8s;
+}
+
+#backgroundIntro:hover {
+    background-image: url(images/lion.png);
 }
 
 .aboutMe {
@@ -408,7 +445,7 @@ header {
 
 .containerArticle {
     height: 700px;
-    width: 1150px;
+    width: 1050px;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -562,6 +599,7 @@ header {
     background-color: black;
     color: white;
     text-align: center;
+    padding: 60px;
 }
 
 .footer button {
@@ -596,9 +634,14 @@ header {
 .backgroundIntro2 {
     width: 800px;
     height: 600px;
-    background-image: url(images/razorman2023_connection_design_red_black_background_realistic_t_9417b4d4-24a4-4e0e-aa36-732cc6f59a38.png);
+    background-image: url(images/network2.png);
     background-position: left;
     background-size: cover;
+    transition: 0.8s;
+}
+
+.backgroundIntro2:hover {
+    background-image: url(images/network.png);
 }
 
 .myPictureSocialmedia {
@@ -643,7 +686,6 @@ header {
 #containerChannels div {
     width: 200px;
     height: 200px;
-    margin: 35px;
     background-color: #d50909;
     background-size: cover;
     background-position: center;
