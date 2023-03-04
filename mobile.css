@@ -580,6 +580,8 @@ header {
 
 #containerChannels {
     height: 300px;
+    width: 300px;
+    margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
